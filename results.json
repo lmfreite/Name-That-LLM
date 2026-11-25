@@ -1,0 +1,202 @@
+{
+ "1": {
+  "id": 1,
+  "week": 1,
+  "name": "TF-IDF palabras + Naive Bayes",
+  "assign": false,
+  "cv_bal_acc": 0.2867,
+  "cv_acc": 0.2868,
+  "cv_macro_f1": 0.2741,
+  "secs": 2
+ },
+ "2": {
+  "id": 2,
+  "week": 1,
+  "name": "TF-IDF palabras + Regresi\u00f3n Log\u00edstica",
+  "assign": false,
+  "cv_bal_acc": 0.3293,
+  "cv_acc": 0.3294,
+  "cv_macro_f1": 0.322,
+  "secs": 20
+ },
+ "3": {
+  "id": 3,
+  "week": 1,
+  "name": "TF-IDF caracteres (2-5, con may\u00fasculas) + LinearSVC",
+  "assign": false,
+  "cv_bal_acc": 0.3171,
+  "cv_acc": 0.3172,
+  "cv_macro_f1": 0.3036,
+  "secs": 34
+ },
+ "4": {
+  "id": 4,
+  "week": 1,
+  "name": "Palabras + caracteres + LinearSVC",
+  "assign": false,
+  "cv_bal_acc": 0.3404,
+  "cv_acc": 0.3405,
+  "cv_macro_f1": 0.3278,
+  "secs": 36
+ },
+ "5": {
+  "id": 5,
+  "week": 1,
+  "name": "Palabras + caracteres + Regresi\u00f3n Log\u00edstica",
+  "assign": false,
+  "cv_bal_acc": 0.353,
+  "cv_acc": 0.3531,
+  "cv_macro_f1": 0.3474,
+  "secs": 111
+ },
+ "6": {
+  "id": 6,
+  "week": 1,
+  "name": "Estilometr\u00eda (\u224860 rasgos) + LR",
+  "assign": false,
+  "cv_bal_acc": 0.3093,
+  "cv_acc": 0.3094,
+  "cv_macro_f1": 0.3011,
+  "secs": 5
+ },
+ "7": {
+  "id": 7,
+  "week": 1,
+  "name": "TF-IDF + estilometr\u00eda en un solo espacio (LR)",
+  "assign": false,
+  "cv_bal_acc": 0.3578,
+  "cv_acc": 0.3579,
+  "cv_macro_f1": 0.348,
+  "secs": 136
+ },
+ "8": {
+  "id": 8,
+  "week": 1,
+  "name": "Ensamble LR + NB + estilometr\u00eda",
+  "assign": false,
+  "cv_bal_acc": 0.3767,
+  "cv_acc": 0.3768,
+  "cv_macro_f1": 0.3675,
+  "secs": 122
+ },
+ "9": {
+  "id": 9,
+  "week": 1,
+  "name": "Ensamble e08 + asignaci\u00f3n h\u00fangara por prompt",
+  "assign": true,
+  "cv_bal_acc": 0.493,
+  "cv_acc": 0.4931,
+  "cv_macro_f1": 0.4931,
+  "secs": 109
+ },
+ "10": {
+  "id": 10,
+  "week": 1,
+  "name": "Estilometr\u00eda centrada por prompt + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.393,
+  "cv_acc": 0.3931,
+  "cv_macro_f1": 0.3931,
+  "secs": 5
+ },
+ "11": {
+  "id": 11,
+  "week": 2,
+  "name": "TF-IDF centrado por prompt + LinearSVC + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.4338,
+  "cv_acc": 0.4339,
+  "cv_macro_f1": 0.4338,
+  "secs": 83
+ },
+ "12": {
+  "id": 12,
+  "week": 2,
+  "name": "TF-IDF centrado por prompt + LR + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.4456,
+  "cv_acc": 0.4457,
+  "cv_macro_f1": 0.4457,
+  "secs": 69
+ },
+ "13": {
+  "id": 13,
+  "week": 2,
+  "name": "e12 sin asignaci\u00f3n (ablaci\u00f3n)",
+  "assign": false,
+  "cv_bal_acc": 0.4219,
+  "cv_acc": 0.422,
+  "cv_macro_f1": 0.4196,
+  "secs": 64
+ },
+ "14": {
+  "id": 14,
+  "week": 2,
+  "name": "Ensamble centrado (TF-IDF + estilometr\u00eda) + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.4967,
+  "cv_acc": 0.4969,
+  "cv_macro_f1": 0.4968,
+  "secs": 79
+ },
+ "15": {
+  "id": 15,
+  "week": 2,
+  "name": "LightGBM sobre estilometr\u00eda cruda+centrada+rango + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.3756,
+  "cv_acc": 0.3757,
+  "cv_macro_f1": 0.3757,
+  "secs": 125
+ },
+ "16": {
+  "id": 16,
+  "week": 2,
+  "name": "Ensamble e12 + e10 + LightGBM + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.5094,
+  "cv_acc": 0.5094,
+  "cv_macro_f1": 0.5094,
+  "secs": 196
+ },
+ "17": {
+  "id": 17,
+  "week": 2,
+  "name": "LR centrada con n-gramas m\u00e1s amplios + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.4575,
+  "cv_acc": 0.4576,
+  "cv_macro_f1": 0.4576,
+  "secs": 93
+ },
+ "18": {
+  "id": 18,
+  "week": 2,
+  "name": "Ensamble grande (5 modelos) sin asignaci\u00f3n",
+  "assign": false,
+  "cv_bal_acc": 0.4719,
+  "cv_acc": 0.472,
+  "cv_macro_f1": 0.4684,
+  "secs": 318
+ },
+ "19": {
+  "id": 19,
+  "week": 2,
+  "name": "Ensamble grande + asignaci\u00f3n h\u00fangara",
+  "assign": true,
+  "cv_bal_acc": 0.5086,
+  "cv_acc": 0.5087,
+  "cv_macro_f1": 0.5086,
+  "secs": 313
+ },
+ "20": {
+  "id": 20,
+  "week": 2,
+  "name": "Ensamble grande + pseudo-etiquetas del test + asignaci\u00f3n",
+  "assign": true,
+  "cv_bal_acc": 0.5116,
+  "cv_acc": 0.5117,
+  "cv_macro_f1": 0.5116,
+  "secs": 6599
+ }
+}
